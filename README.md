@@ -14,7 +14,7 @@ Planejamento:
 * Estudar, no mínimo os materiais de referência selecionados, não excluindo a possibilidade de complementar os estudos com outros materiais de referências identificados.
 * Discutir a suficiência do conteúdo estudado e a necessidade de identificar novos materiais de referência, ou selecionar mais materiais para estudo dentre aqueles já identificados.
 * Planejar a aplicação do conteúdo estudado para a construção do trabalho.
-* Avaliar o planejamento e conduzir as atividades necessários para corrigí-lo ou refazê-lo caso haja necessidasde.
+* Avaliar o planejamento e identificar e realizar as atividades necessárias para corrigí-lo ou refazê-lo caso haja necessidasde.
 
 Links de referência:
 
