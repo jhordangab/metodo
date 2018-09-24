@@ -9,9 +9,12 @@ Integrantes:
 - Erivan Barbosa do Nascimento (201202256)
 
 Planejamento:
-* identificar materiais de referência sobre o assunto
-* Selecionar dentre os materiais de referência identificados quais serão utilizados como base para o desenvolvimento do trabalho.
-* Estudar, no mínimo os materiais de referência selecionados, não excluindo a possibilidade de complementar os estudos com outros materiais de referências identificados.
-* Discutir a suficiência do conteúdo estudado e a necessidade de identificar novos materiais de referência, ou selecionar mais materiais para estudo dentre aqueles já identificados.
-* Planejar a aplicação do conteúdo estudado para a construção do trabalho.
-* Avaliar o planejamento e identificar e realizar as atividades necessárias para corrigí-lo ou refazê-lo caso haja necessidasde.
+* Identificar materiais de referência sobre o assunto
+* Selecionar os materiais usados para basear o trabalho
+* Estudar os materiai escolhidos.
+* Planejar a estrutura e objetivos do texto a ser escrito
+* Iniciar a escrita do texto com a estrutura e objetivos planejados.
+* Validar, revisar e discutir o texto criado até este ponto
+* Identificar e selecionar novos materiais de apoio conforme a necessidade
+* Prosseguir com a escrita do texto
+* Avaliar e revisar perioricamente o texto.
