@@ -26,6 +26,12 @@ De forma analoga, no sistema do estacionamento provavelmente existe necessidade 
 
 Um objeto também pode ser a representação de algo que possui uma existencia fisica no mundo real, como uma cadeira, ou a representação de algo que possui existencia conceitual, como o tempo.
 
+### Classes
+
+Classes podem ser entendidas como especificaçes para tipos de objetos. As caracteristicas e comportamentos de um objeto são descritas em classes, de forma que todo objeto é um membro de uma classe e criado a partir de uma classe. Chamamos a criação de objeto a partir de uma classe de instanciação e consequentemente dizemos que o objeto criado é uma instancia daquela classe.
+
+Diversas isntancias podem ser criadas a partir de uma classe e todas as instancias de uma classe (Ou seja, todos os objetos criados a partir dela) possuem as caracteristicas e comportamentos da classe. Por exemplo, a partir de uma classe Cachorro com os atributos 'tamanho', 'raça' e 'cor' e os comportamentos 'correr' e 'latir' podem ser criados quantos objetos Cachorro desejarmos e todos eles possuirão um tamanho, uma raça e um cor, além dos comportamentos de correr e latir. Apesar disso cada cachorro será um objeto diferente, com uma identidade diferente, além de poderem possuir estados diferentes (Ou seja, um cachorro pode ter tamanho grande e cor cinza, enquanto outro cachorro pode ter tamanho pequeno e cor preta).
+
 
 
 ## Vantagens e Desvantagens
