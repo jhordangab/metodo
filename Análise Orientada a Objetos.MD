@@ -1,9 +1,9 @@
 # Introdução a Análise Orientada a Objetos
 ## O que é análise orientada a objetos?
 
-Análise orientada a objetos é uma abordagem técnica popular para análisar e projetar aplicações ou sistemas de software através da aplicação de conceitos de programação orientada a objetos, além da utilização de modelagem visual ao longo do ciclo de desenvolvimento para melhorar a comunicação entre interessados e a qualidade do produto em desenvolvimento. [1]
+Análise orientada a objetos é uma abordagem técnica popular para análisar e projetar aplicações ou sistemas de software através da aplicação de conceitos de programação orientada a objetos, além da utilização de modelagem visual ao longo do ciclo de desenvolvimento para melhorar a comunicação entre interessados e a qualidade do produto em desenvolvimento.
 
-Compreende a identificação de requisitos de engenharia de software e desenvolvimento de especificações de software em termos de modelos de objetos, onde cada representação de objeto pode possuir caracteristicas e comportamentos, além de ser relacionar e interagir com outros objetos para realizar as tarefas esperadas do sistema. [2]
+Compreende a identificação de requisitos de engenharia de software e desenvolvimento de especificações de software em termos de modelos de objetos, onde cada representação de objeto pode possuir caracteristicas e comportamentos, além de ser relacionar e interagir com outros objetos para realizar as tarefas esperadas do sistema.
 
 
 ## Conceitos-chaves da análise orientada a objetos
@@ -13,7 +13,7 @@ Ao longo do amadurecimento do paradigma orientado a objetos diversas idéias e a
 ### Objetos
 
 Objetos formam o conceito central da orientação a objetos, como o próprio nome sugere.
-O projeto dos primeiros sistemas era centralizado em volta de processos, os quais eram suscetíveis a mudança, e quando essa mmudança acontecia, pouquissimos sistemas se mostravam 'reutilizáveis' e adaptáveis.[3]
+O projeto dos primeiros sistemas era centralizado em volta de processos, os quais eram suscetíveis a mudança, e quando essa mmudança acontecia, pouquissimos sistemas se mostravam 'reutilizáveis' e adaptáveis.
 No paradigma orientado a objetos, um objeto é uma representação de um elemento concreto ou abstrato do mundo real que possui como caracteristicas principais:
 
 * Uma identidade que distingue cada objeto particular de outros objetos no sistema.
