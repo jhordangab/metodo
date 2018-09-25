@@ -22,6 +22,8 @@ No paradigma orientado a objetos, um objeto é uma representação de um element
 
 A representação de um mesmo objeto do mundo real pode variar entre aplicações diferentes, porque de maneira geral, é desejável que um objeto represente apenas os caracteristicas e comportamentos tenham valor dentro das necessidades da aplicação em que ele é utilizado. Por exemplo, em um sistema de um estacionamento a placa de um veiculo pode ser um atributo importante, e que deveria estar presente nos objetos de carros do sistema. Por outro lado em um jogo de corrida talvez esse atributo seja desnecessário e por essa razão os objetos de carros deste sistema podem não possuir este atributo.
 
+De forma analoga, no sistema do estacionamento provavelmente existe necessidade de representar o comportamento de acelar que os carros possuem, enquanto em um jogo esse comportamento pode ser crucial.
+
 Um objeto também pode ser a representação de algo que possui uma existencia fisica no mundo real, como uma cadeira, ou a representação de algo que possui existencia conceitual, como o tempo.
 
 
