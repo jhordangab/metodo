@@ -12,7 +12,7 @@ Ao longo do amadurecimento do paradigma orientado a objetos diversas idéias e a
 
 ### Objetos
 
-O projeto dos primeiros sistemas era centralizado em volta de processos e poucos desses sistemas se mostravam adaptáveis as mudanças externas quando elas aconteciam. Argumenta-se que um dos principais motivos para o grande número de fracassos (e cada vez maior) neste paradgima de desenvolvimento fosse o aumento da complexidade dos sistemas de software. Este aumento por sua vez resultante principalmente de dois fatores: 1) A evolução dos computadores levava a demanda por sistemas mais complexos e; 2) Os proprios sistemas se tornavam mais complexos conforme evoluem.
+O projeto dos primeiros sistemas era centralizado em volta de processos e poucos desses sistemas se mostravam adaptáveis as mudanças externas quando elas aconteciam. Argumenta-se que um dos principais motivos para o grande número de fracassos (e cada vez maior) neste paradigma de desenvolvimento fosse o aumento da complexidade dos sistemas de software. Este aumento por sua vez resultante principalmente de dois fatores: 1) A evolução dos computadores levava a demanda por sistemas mais complexos e; 2) Os proprios sistemas se tornavam mais complexos conforme evoluiam.
 O paradigma orientado a objetos surgiu e se popularizou com a proposta de simplificar a compreensão dos sistemas através da abstração do sistema como um conjunto de objetos trabalhando colaborativamente para a realização das tarefas esperadas do sistema.
  
 No paradigma orientado a objetos, um objeto é uma representação de um elemento concreto ou abstrato do mundo real que possui como caracteristicas principais:
