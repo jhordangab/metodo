@@ -12,25 +12,26 @@ Ao longo do amadurecimento do paradigma orientado a objetos diversas idéias e a
 
 ### Objetos
 
-Objetos formam o conceito central da orientação a objetos, como o próprio nome sugere.
-O projeto dos primeiros sistemas era centralizado em volta de processos, os quais eram suscetíveis a mudança, e quando essa mmudança acontecia, pouquissimos sistemas se mostravam 'reutilizáveis' e adaptáveis.
+O projeto dos primeiros sistemas era centralizado em volta de processos e poucos desses sistemas se mostravam adaptáveis as mudanças externas quando elas aconteciam. Argumenta-se que um dos principais motivos para o grande número de fracassos (e cada vez maior) neste paradgima de desenvolvimento fosse o aumento da complexidade dos sistemas de software. Este aumento por sua vez resultante principalmente de dois fatores: 1) A evolução dos computadores levava a demanda por sistemas mais complexos e; 2) Os proprios sistemas se tornavam mais complexos conforme evoluem.
+O paradigma orientado a objetos surgiu e se popularizou com a proposta de simplificar a compreensão dos sistemas através da abstração do sistema como um conjunto de objetos trabalhando colaborativamente para a realização das tarefas esperadas do sistema.
+ 
 No paradigma orientado a objetos, um objeto é uma representação de um elemento concreto ou abstrato do mundo real que possui como caracteristicas principais:
 
 * Uma identidade que distingue cada objeto particular de outros objetos no sistema.
 * Estados que determinam as propriedades caracteristicas de um objeto, bem como os valores dessas propriedades ao longo da existência do objeto.
 * Comportamentos que representam as atividades externamente visiveis realizadas por um objeto e um termos de mudanças de em seu estado.
 
-A representação de um mesmo objeto do mundo real pode variar entre aplicações diferentes, porque de maneira geral, é desejável que um objeto represente apenas os caracteristicas e comportamentos tenham valor dentro das necessidades da aplicação em que ele é utilizado. Por exemplo, em um sistema de um estacionamento a placa de um veiculo pode ser um atributo importante, e que deveria estar presente nos objetos de carros do sistema. Por outro lado em um jogo de corrida talvez esse atributo seja desnecessário e por essa razão os objetos de carros deste sistema podem não possuir este atributo.
+A representação de um mesmo objeto do mundo real pode variar entre aplicações diferentes, porque de maneira geral, é desejável que um objeto represente apenas os caracteristicas e comportamentos que tenham valor dentro das necessidades da aplicação em que ele é utilizado. Por exemplo, em um sistema de um estacionamento a placa de um veiculo pode ser um atributo importante, e que deveria estar presente nos objetos de carros do sistema. Por outro lado em um jogo de corrida talvez esse atributo seja desnecessário e por essa razão os objetos de carros deste sistema podem não possuir este atributo.
 
-De forma analoga, no sistema do estacionamento provavelmente existe necessidade de representar o comportamento de acelar que os carros possuem, enquanto em um jogo esse comportamento pode ser crucial.
+De forma analoga, em um sistema de estacionamento provavelmente não existe a necessidade de representar o comportamento de acelerar que os carros possuem, enquanto em um jogo de corrida esse comportamento normalmente é fundamental.
 
 Um objeto também pode ser a representação de algo que possui uma existencia fisica no mundo real, como uma cadeira, ou a representação de algo que possui existencia conceitual, como o tempo.
 
 ### Classes
 
-Classes podem ser entendidas como especificaçes para tipos de objetos. As caracteristicas e comportamentos de um objeto são descritas em classes, de forma que todo objeto é um membro de uma classe e criado a partir de uma classe. Chamamos a criação de objeto a partir de uma classe de instanciação e consequentemente dizemos que o objeto criado é uma instancia daquela classe.
+Classes podem ser entendidas como especificações para tipos de objetos. As caracteristicas e comportamentos de um objeto são descritas em classes, de forma que todo objeto é um membro de uma classe e criado a partir de uma classe. Chamamos a criação de um objeto a partir de uma classe de instanciação e consequentemente dizemos que o objeto criado é uma instancia da classe que o descreve.
 
-Diversas instâncias podem ser criadas a partir de uma classe e todas as instâncias de uma classe (ou seja, todos os objetos criados a partir dela) possuem as caracteristicas e comportamentos definidos pela classe. Por exemplo, a partir de uma classe 'Cachorro' com os atributos 'tamanho', 'raça' e 'cor' e os comportamentos 'correr' e 'latir' podem ser criados quantos objetos 'Cachorro' desejarmos e todos eles possuirão um tamanho, uma raça e uma cor, além dos comportamentos de correr e latir. Apesar disso cada cachorro será um objeto diferente, com uma identidade diferente, além de poderem possuir estados diferentes (ou seja, um cachorro pode ter tamanho grande e cor cinza, enquanto outro cachorro pode ter tamanho pequeno e cor preta). Adicionalmente, os comportamentos dos objetos podem variar de acordo com seus estados (por exemplo, um cachorro com tamanho grande pode latir mais alto que um cachorro com o tamanho pequeno).
+Diversas instâncias podem ser criadas a partir de uma mesma classe e todas as instâncias de uma classe (ou seja, todos os objetos criados a partir dela) possuem as caracteristicas e comportamentos definidos pela classe. Por exemplo, a partir de uma classe 'Cachorro' com os atributos 'tamanho', 'raça' e 'cor' e os comportamentos 'correr' e 'latir' podem ser criados quantos objetos 'Cachorro' desejarmos e todos eles possuirão um tamanho, uma raça e uma cor, além dos comportamentos de correr e latir. Apesar disso cada cachorro será um objeto diferente, com uma identidade diferente, além de poderem possuir estados diferentes (ou seja, um cachorro pode ter tamanho grande e cor cinza, enquanto outro cachorro pode ter tamanho pequeno e cor preta). Adicionalmente, os comportamentos dos objetos podem variar de acordo com seus estados (por exemplo, um cachorro com tamanho grande pode latir mais alto que um cachorro com o tamanho pequeno).
 
 
 
