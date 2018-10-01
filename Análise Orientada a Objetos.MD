@@ -1,4 +1,4 @@
-# Introdução a Análise Orientada a Objetos
+﻿# Introdução a Análise Orientada a Objetos
 ## O que é análise orientada a objetos?
 
 Análise orientada a objetos é uma abordagem técnica popular para análisar e projetar aplicações ou sistemas de software através da aplicação de conceitos de programação orientada a objetos, além da utilização de modelagem visual ao longo do ciclo de desenvolvimento para melhorar a comunicação entre interessados e a qualidade do produto em desenvolvimento.
@@ -33,9 +33,9 @@ Classes podem ser entendidas como especificações para tipos de objetos. As car
 
 Diversas instâncias podem ser criadas a partir de uma mesma classe e todas as instâncias de uma classe (ou seja, todos os objetos criados a partir dela) possuem as caracteristicas e comportamentos definidos pela classe. Por exemplo, a partir de uma classe 'Cachorro' com os atributos 'tamanho', 'raça' e 'cor' e os comportamentos 'correr' e 'latir' podem ser criados quantos objetos 'Cachorro' desejarmos e todos eles possuirão um tamanho, uma raça e uma cor, além dos comportamentos de correr e latir. Apesar disso cada cachorro será um objeto diferente, com uma identidade diferente, além de poderem possuir estados diferentes (ou seja, um cachorro pode ter tamanho grande e cor cinza, enquanto outro cachorro pode ter tamanho pequeno e cor preta). Adicionalmente, os comportamentos dos objetos podem variar de acordo com seus estados (por exemplo, um cachorro com tamanho grande pode latir mais alto que um cachorro com o tamanho pequeno).
 
-
-
 ## Vantagens e Desvantagens
+
+A análise orientada a objetos tem como maior vantagem, e inlcusive um de seus propósitos de criação, a possibilidade de se constuir sistemas muito mais complexos, maior facilidade de reutilização de código e por consequência do projeto, a possibilidade de se desenvolver software em um nível de abstração mais elevado, entre outras. Por outro lado, a Análise Orientada a Objetos trás desvantagens como: complexidade no aprendizado para desenvolvedores habituados em um modelo estruturado e maior esforço na modelagem de um sistema OO comparado ao estruturado são alguns exemplos.
 
 # Bases da Análise Orientada a Objetos
 ## Abstração
