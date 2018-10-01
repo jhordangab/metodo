@@ -27,3 +27,4 @@ Riscos:
 | Integrantes podem contruibuir pouco ou nada para o trabalho | Alta | Parte do trabalho pode deixar de ser feita | Planejar o trabalho semanal e concluir o trabalho pendente da semana anterior. Manter o docente informado deste problema. Manter comunicação constante com os integrantes |
 | Integrantes podem estar pouco comprometidos com o trabalho | Alta |Qualidade do trabalho pode ser comprometida | Revisar semanalmente o trabalho realizado. Obter feedback do docente. |
 | Estudantes podem não possuir domínio teórico sobre o tema | Alta |Qualidade do trabalho pode ser comprometida | Embasar e referênciar o texto com os materiais de referência. Obter feedback do docente. |
+| Integrantes podem possuir pouco tempo para dedicar ao trabalho | Alta |Parte do trabalho pode deixar de ser feita. Qualidade do trabalho pode ser comprometida | Incentivar o uso integral do tempo de aula voltado para a realização do trabalho para este fim. |
