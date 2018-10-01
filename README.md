@@ -25,5 +25,5 @@ Riscos:
 | Risco         | Probabilidade | Impacto           | Ação  |
 | ------------- |:-------------:|:-------------:|:-----|
 | Integrantes podem contruibuir pouco ou nada para o trabalho | Alta | Parte do trabalho pode deixar de ser feita | Planejar o trabalho semanal e concluir o trabalho pendente da semana anterior. Manter o docente informado deste problema. Manter comunicação constante com os integrantes |
-| col 2 is      | |centered      |   $12 |
+| Integrantes podem estar pouco comprometidos com o trabalho | Alta |Qualidade do trabalho pode ser comprometida | Revisar semanalmente o trabalho realizado. Obter feedback do docente. |
 | zebra stripes | |are neat      |    $1 |
