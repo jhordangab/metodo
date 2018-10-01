@@ -45,6 +45,9 @@ Diversas instâncias podem ser criadas a partir de uma mesma classe e todas as i
 # Bases da Análise Orientada a Objetos
 ## Abstração
 ## Classes e Objetos
+
+Na Orientação à Objetos, o foco principal são os objetos nos quais o sistema é constituido e na comunicação entre eles. Esses objetos, por sua vez, são categorizados em classes. Dessa forma, o principal processo da Análise Orientada à Objetos é a descoberta de classes para serem modeladas, não objetos.
+
 ## Interfaces
 
 # Relacionamentos
