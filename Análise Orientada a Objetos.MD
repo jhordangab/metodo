@@ -55,11 +55,6 @@ Na Orientação à Objetos, o foco principal são os objetos nos quais o sistema
 ## Herança
 ## Genericidade
 
-# Linguagens Orientadas a Objetos e suas Caracteristicas
-## Organização de classes
-## Classes utilitárias
-## Resoluçes em tempo de execução
-
 # Padrões de Projeto
 ## O que são padrões de projeto?
 ## Principais padrões de projeto
