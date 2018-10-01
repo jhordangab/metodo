@@ -53,6 +53,18 @@ Na Orientação à Objetos, o foco principal são os objetos nos quais o sistema
 # Relacionamentos
 ## Associações
 ## Herança
+
+A herança é uma das principais e mais importantes características da Orientação à Objetos, onde é permitido o compartilhamento de atributos e métodos entre objetos que possuem o mesmo relacionamento hierárquico, organizando e otimizando o código construído.
+
+Exemplo: 
+
+A classe |Animal| possui os atributos |nome| e |quantidadeDePatas|
+
+A classe |Cachorro| extende da classe |Animal|
+A classe |Gato| extende da classe |Animal|
+
+Portanto, |Cachorro| e |Gato| possuem os atributos |nome| e |quanidadeDePatas|
+
 ## Genericidade
 
 # Linguagens Orientadas a Objetos e suas Caracteristicas
