@@ -35,7 +35,12 @@ Diversas instâncias podem ser criadas a partir de uma mesma classe e todas as i
 
 ## Vantagens e Desvantagens
 
-A análise orientada a objetos tem como maior vantagem, e inlcusive um de seus propósitos de criação, a possibilidade de se constuir sistemas muito mais complexos, maior facilidade de reutilização de código e por consequência do projeto, a possibilidade de se desenvolver software em um nível de abstração mais elevado, entre outras. Por outro lado, a Análise Orientada a Objetos trás desvantagens como: complexidade no aprendizado para desenvolvedores habituados em um modelo estruturado e maior esforço na modelagem de um sistema OO comparado ao estruturado, além de um maior uso de memória(heap) para sistemas que são desenvolvidos através de POO.
+| Vantagem| Desvantagem |
+| ------------- |:-------------:|
+| Os princípios de encapsulamento fazem com que os dados não sejam alterados por outras partes do sistema. | Não é possível definir quais objetos irão definir um design otimizado. |
+| A modularização provida pela AOO implica em uma redução da complexidade do software. | A funcionalidade restrita a objetos pode dificultar o desenvolvimento de sistemas que são intrinsecamente procedurais. |
+| Facilita a manutenção e a melhoria de sistemas, inclusive aumentando para larga escala, diferentemente de um sistema desenvolvido com base em uma análise estruturada. | Sistemas consomem mais memória(heap) do que sistemas que utilizam o paradigma de programação estruturada. |
+| Possibilidade de se desenvolver software em um nível de abstração mais elevado. | Dificuldade de aprendizado para desenvolvedores habituados a um modelo estrutural. |
 
 # Bases da Análise Orientada a Objetos
 ## Abstração
