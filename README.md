@@ -18,3 +18,12 @@ Planejamento:
 * Identificar e selecionar novos materiais de apoio conforme a necessidade
 * Prosseguir com a escrita do texto
 * Avaliar e revisar perioricamente o texto.
+
+
+Riscos:
+
+| Risco         | Probabilidade | Impacto           | Ação  |
+| ------------- |:-------------:|:-------------:|:-----|
+| Integrantes podem contruibuir pouco ou nada para o trabalho | Alta | Parte do trabalho pode deixar de ser feita | Planejar o trabalho semanal e concluir o trabalho pendente da semana anterior. Manter o docente informado deste problema. Manter comunicação constante com os integrantes |
+| col 2 is      | |centered      |   $12 |
+| zebra stripes | |are neat      |    $1 |
