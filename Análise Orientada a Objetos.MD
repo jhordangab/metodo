@@ -56,6 +56,9 @@ A classe |Gato| extende da classe |Animal|
 Portanto, |Cachorro| e |Gato| possuem os atributos |nome| e |quanidadeDePatas|
 
 # Análise
+
+O objetivo da atividade de análise no ciclo de vida de software é criar um modelo dos requisitos funcionais do sistema que seja independente das restrições da implementação, um modelo de abstração maior que a codificação, porém menor que o mundo real. Seria uma trasição entre esses estados para facilitar o entendimento de ambas as partes, tanto do cliente quanto da fase de design.
+
 ## Visão Geral
 ## Requisitos
 
