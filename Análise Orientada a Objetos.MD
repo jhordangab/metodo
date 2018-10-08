@@ -14,6 +14,9 @@ O foco principal na Orientação a Objetos são os objetos propriamente ditos, n
 
 ### Abstração
 
+A abstração é um conceito essencial para identificarmos classes. O processo de abstrair consiste na seleção de alguns aspectos de domínio do problema a modelar, desconsiderando os irrelevantes para o nível de abstração em questão. Dessa forma, é indispensável utilizar da abstração é indispensável para abstrair objetos reais, pois no mundo real, quase tudo é complexo.
+
+
 ### Objetos
 
 O projeto dos primeiros sistemas era centralizado em volta de processos e poucos desses sistemas se mostravam adaptáveis as mudanças externas quando elas aconteciam. Argumenta-se que um dos principais motivos para o grande número de fracassos (e cada vez maior) neste paradigma de desenvolvimento fosse o aumento da complexidade dos sistemas de software. Este aumento por sua vez resultante principalmente de dois fatores: 1) A evolução dos computadores levava a demanda por sistemas mais complexos e; 2) Os proprios sistemas se tornavam mais complexos conforme evoluiam.
