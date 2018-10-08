@@ -56,8 +56,9 @@ A classe |Gato| extende da classe |Animal|
 Portanto, |Cachorro| e |Gato| possuem os atributos |nome| e |quanidadeDePatas|
 
 # Análise
-
-O objetivo da atividade de análise no ciclo de vida de software é criar um modelo dos requisitos funcionais do sistema que seja independente das restrições da implementação, um modelo de abstração maior que a codificação, porém menor que o mundo real. Seria uma transição entre esses estados para facilitar o entendimento de ambas as partes, tanto do cliente quanto da fase de design.
+O principal propósito da análise é determinar o que o sistema deve fazer sem determinar qual metodologia deve ser aplicada para isso. O resultado da análise é geralmente expresso em um ou mais documentos referidos tipicamente como "Especificação de Requisitos" ou "Requisitos do Sistema".
+No caso da análise orientada a objetos, uma ou mais pessoas, assumindo o papel de analistas procuram desenvolver um conjunto de modelos do sistema, descrito como um agregado de objetos conceituais que se relacionam entre sí.
+O produto final desta análise é um modelo conceitual do sistema que descreve a funcionalidade do sistema, identifica suas entidades conceituais e as associais entre essas entidades.
 
 ## Visão Geral
 ## Requisitos
