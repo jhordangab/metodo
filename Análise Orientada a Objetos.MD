@@ -5,10 +5,11 @@ Análise orientada a objetos é uma abordagem técnica popular para análisar e 
 
 Compreende a identificação de requisitos de engenharia de software e desenvolvimento de especificações de software em termos de modelos de objetos, onde cada representação de objeto pode possuir caracteristicas e comportamentos, além de ser relacionar e interagir com outros objetos para realizar as tarefas esperadas do sistema.
 
-
-## Conceitos-chaves da análise orientada a objetos
+# Bases da Análise Orientada a Objetos
 
 Ao longo do amadurecimento do paradigma orientado a objetos diversas idéias e abordagens foram tentadas. Muitas delas foram descartadas, enquanto algumas se mantiveram e ajudaram a estabelecer as bases para a orientação a objetos. 
+
+## Conceitos-chaves da análise orientada a objetos
 
 ### Objetos
 
@@ -33,22 +34,11 @@ Classes podem ser entendidas como especificações para tipos de objetos. As car
 
 Diversas instâncias podem ser criadas a partir de uma mesma classe e todas as instâncias de uma classe (ou seja, todos os objetos criados a partir dela) possuem as caracteristicas e comportamentos definidos pela classe. Por exemplo, a partir de uma classe 'Cachorro' com os atributos 'tamanho', 'raça' e 'cor' e os comportamentos 'correr' e 'latir' podem ser criados quantos objetos 'Cachorro' desejarmos e todos eles possuirão um tamanho, uma raça e uma cor, além dos comportamentos de correr e latir. Apesar disso cada cachorro será um objeto diferente, com uma identidade diferente, além de poderem possuir estados diferentes (ou seja, um cachorro pode ter tamanho grande e cor cinza, enquanto outro cachorro pode ter tamanho pequeno e cor preta). Adicionalmente, os comportamentos dos objetos podem variar de acordo com seus estados (por exemplo, um cachorro com tamanho grande pode latir mais alto que um cachorro com o tamanho pequeno).
 
-## Vantagens e Desvantagens
-
-| Vantagem| Desvantagem |
-| ------------- |:-------------:|
-| Os princípios de encapsulamento fazem com que os dados não sejam alterados por outras partes do sistema. | Não é possível definir quais objetos irão definir um design otimizado. |
-| A modularização provida pela AOO implica em uma redução da complexidade do software. | A funcionalidade restrita a objetos pode dificultar o desenvolvimento de sistemas que são intrinsecamente procedurais. |
-| Facilita a manutenção e a melhoria de sistemas, inclusive aumentando para larga escala, diferentemente de um sistema desenvolvido com base em uma análise estruturada. | Sistemas consomem mais memória(heap) do que sistemas que utilizam o paradigma de programação estruturada. |
-| Possibilidade de se desenvolver software em um nível de abstração mais elevado. | Dificuldade de aprendizado para desenvolvedores habituados a um modelo estrutural. |
-
-# Bases da Análise Orientada a Objetos
 ## Abstração
+
 ## Classes e Objetos
 
 Na Orientação à Objetos, o foco principal são os objetos nos quais o sistema é constituido e na comunicação entre eles. Esses objetos, por sua vez, são categorizados em classes. Dessa forma, o principal processo da Análise Orientada à Objetos é a descoberta de classes para serem modeladas, não objetos.
-
-## Interfaces
 
 # Relacionamentos
 ## Associações
@@ -65,26 +55,25 @@ A classe |Gato| extende da classe |Animal|
 
 Portanto, |Cachorro| e |Gato| possuem os atributos |nome| e |quanidadeDePatas|
 
-## Genericidade
-
-# Padrões de Projeto
-## O que são padrões de projeto?
-## Principais padrões de projeto
-
 # Análise
 ## Visão Geral
 ## Requisitos
-
-# Projeto
-## Projeto
-## Implementação
 
 # Modelagem
 ## UML
 ## Principais diagramas
 
+## Vantagens e Desvantagens
+
+| Vantagem| Desvantagem |
+| ------------- |:-------------:|
+| Os princípios de encapsulamento fazem com que os dados não sejam alterados por outras partes do sistema. | Não é possível definir quais objetos irão definir um design otimizado. |
+| A modularização provida pela AOO implica em uma redução da complexidade do software. | A funcionalidade restrita a objetos pode dificultar o desenvolvimento de sistemas que são intrinsecamente procedurais. |
+| Facilita a manutenção e a melhoria de sistemas, inclusive aumentando para larga escala, diferentemente de um sistema desenvolvido com base em uma análise estruturada. | Sistemas consomem mais memória(heap) do que sistemas que utilizam o paradigma de programação estruturada. |
+| Possibilidade de se desenvolver software em um nível de abstração mais elevado. | Dificuldade de aprendizado para desenvolvedores habituados a um modelo estrutural. |
+
+
 # Referências
 1. https://en.wikipedia.org/wiki/Object-oriented_analysis_and_design
 2. https://www.tutorialspoint.com/object_oriented_analysis_design/ooad_object_oriented_analysis.htm
 3. Object-Oriented Analysis, Design and Implementation: An Integrated Approach 2nd ed. 2015 Edition
-4. https://docente.ifrn.edu.br/givanaldorocha/disciplinas/engenharia-de-software-licenciatura-em-informatica/analise-orientada-a-objetos
