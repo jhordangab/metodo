@@ -87,3 +87,4 @@ Portanto, |Cachorro| e |Gato| possuem os atributos |nome| e |quanidadeDePatas|
 1. https://en.wikipedia.org/wiki/Object-oriented_analysis_and_design
 2. https://www.tutorialspoint.com/object_oriented_analysis_design/ooad_object_oriented_analysis.htm
 3. Object-Oriented Analysis, Design and Implementation: An Integrated Approach 2nd ed. 2015 Edition
+4. https://docente.ifrn.edu.br/givanaldorocha/disciplinas/engenharia-de-software-licenciatura-em-informatica/analise-orientada-a-objetos
