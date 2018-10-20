@@ -60,11 +60,18 @@ O principal propósito da análise é determinar o que o sistema deve fazer sem 
 No caso da análise orientada a objetos, uma ou mais pessoas, assumindo o papel de analistas procuram desenvolver um conjunto de modelos do sistema, descrito como um agregado de objetos conceituais que se relacionam entre sí.
 O produto final desta análise é um modelo conceitual do sistema que descreve a funcionalidade do sistema, identifica suas entidades conceituais e as associais entre essas entidades.
 
-## Visão Geral
 ## Requisitos
+O objetivo principal de qualquer sistema de software é satisfazer um conjunto de necessidade declaradas ou implicitas dos indivíduos interessados nele. Este objetivo é evidentemente, muito genérico, e por essa razão é necessário um conjunto de atividades que possibilitem identificar quais são essas necessidades. Esse conjuntos de atividades é que chamamos de análise, e quando ela é realizada em termos de objetos, relacionamentos e responsabilidades a chamamos de análise orientada a objetos.
+
+## Casos de Uso
+Casos de uso são histórios escritas em formato de texto, amplamente utilizadas na análise orientada a objetos para descobrir e registrar requisitos. Eles influenciam muitos aspectos de um projeto e servem de entrada para diversos artefatos subsequentes no desenvolvimento de um sistema.
+Um caso de uso descreve como um determinado ator interage com o sistema para realizar uma tarefa com algum objetivo. Por exemplo, vender um item, cadastrar um cliente, emitir um relatório, etc...
+Um ator é uma entidade como um pessoa, um sistema de computador ou uma organização que interage com o sistema com um determinado papel, comportamento ou objetivo. Por exemplo, um caixa de supermercado é o ator que interage com o sistema de vendas para realizar uma venda.
+Um cenário é uma sequencia específica de ações e interações entre os atores e o sistema dentro de um caso de uso. Por exemplo, dentro de um caso de uso "realizar pagamento" podem existir diversos cenários como pagar com dinheiro, pagamento com cartão, pagamento a vista, pagamento a prazo, parcelamento, etc... Cada cenário pode exigir que o ator ou sistema se comporte de maneira diferente, mas o objetivo geral de todos os cenários está relacionado com o objetivo do caso de uso. Ou seja, embora um caso de uso possa ter diversos cenários, como é o caso do nosso cenário "realizar pagamento", todos eles estão envolvidos com o objetivo de tratar uma execução de pagamento.
 
 # Modelagem
 ## UML
+A UML é uma notação padrão para diagramação amplamente utilizada para modelar soluções e sistemas orientados a objetos, que facilita a transmitir as idéias justamente por se tratar de uma notação padronizada, onde a grande maioria dos elementos utilizados possui um (ou alguns pouco) um significado pré-estabelecido. Apesar disso é importante não confundir a habilidade de criar modelos UML com a habilidade de executar boas análises orientadas a objetos.
 ## Principais diagramas
 
 ## Vantagens e Desvantagens
