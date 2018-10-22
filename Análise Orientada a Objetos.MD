@@ -97,6 +97,8 @@ Apesar da semelhança entre modelos de dominio de diagramas de classes de softwa
 
 
 # Modelagem
+A modelagem pode ocorrer à partir de artefatos como: relatórios, documentos, textos, outros sistemas e qualquer outro artefato que faça parte do domínio do problema. O analista investiga estes interfatos e identifica o vocabulário relevante. Cada léxico deste vocabulário dá origem a uma classe conceitual no modelo de domínio. Para esse processo, é importante que exista um tipo de padronizador, para que uma modelagem possa ser mais universal e entendida mais facilmente. Nesse quesito, pode-se utilizar a UML.
+
 ## UML
 A UML é uma notação padrão para diagramação amplamente utilizada para modelar soluções e sistemas orientados a objetos, que facilita a transmitir as idéias justamente por se tratar de uma notação padronizada, onde a grande maioria dos elementos utilizados possui um (ou alguns pouco) significado pré-estabelecido. Apesar disso é importante não confundir a habilidade de criar modelos UML com a habilidade de executar boas análises orientadas a objetos.
 ## Principais diagramas
@@ -106,7 +108,7 @@ Esse diagrama documenta o que o sistema faz do ponto de vista do usuário. Em ou
 ### Diagrama de Classes
 Representa uma coleção de classes e seus inter-relacionamentos.
 
-### Diaagrama de Objetos
+### Diagrama de Objetos
 Representa um retrato, em tempo de execução, dos objetos do software e seus inter-relacionamentos.
 
 
