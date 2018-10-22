@@ -72,7 +72,7 @@ Abaixo temos um exemplo de um caso de uso representado em formato resumido:
 
 <b>Processar Venda</b>: Um cliente chega ao caixa com itens de venda. O caixa utiliza o sistema de vendas para registrar cada item de venda e sua quantidade. O sistema apresenta o total corrente e os detalhes de cada linha de item. O cliente insere as informações de pagamento, que o sistema valida e registra. O sistema atualiza o inventário. O cliente recebe um recibo do sistema e sai com o itens.
 
-### Casos de Uso e Análise Orientda a Objetos
+### Casos de Uso e Análise Orientada a Objetos
 Casos de uso não são obrigatórios para realizar análise orientada a objetos, e, em termos gerais, um caso de uso não é considerado um modelo orientado a objetos. apesar disso, casos de uso podem ajudar bastante na análise orientada a objetos, pois através deles diversos objetos, relacionamentos e responsabilidades podem ser identificados.
 Cada substantivo em um caso de uso é um candidato a um possivel objeto e cada verbo é um candidato a um comportamento de um ou mais objetos. Por exemplo: no casos de uso "processar venda" apresentado na seção anterior podemos identificar os substantivos "venda", "cliente", "caixa", "item de venda", "linha de item", "pagamento", "inventário" e "recibo". Todos estes substantivo são candidatos à uma classe de objetos e provavelmente a maioria deles de fato seria transformada em uma classe.
 Também podemos identificar alguns comportamentos no mesmo caso de uso como "registrar item de venda", "apresentar total da venda", "detalhar linha de item", inserir informações de pagamento", "validar pagamento", "registrar pagamento", "atualizar inventário" e "gerar recibo". Novamente, todos esses comportamentos são candidatos à comportamentos de alguma classe, como por exemplo, o comportamento "atualizar inventário" pode ser escolhido como um comportamento da classe "inventário".
@@ -83,8 +83,18 @@ Ainda é possivel identificar alguns relacionamentos entre os objetos utilizando
 O modelo de domínio é o modelo mais importante e clássico da análise orientada a objetos. Ele ilustra os conceitos mais relevantes de um domínio. Além disso ele também serve como um fonte de inspiração para projetar alguns objetos de software e como entrada  para diversos outros arterafos no ciclo de desenvolvimento.
 Um modelo de dominio é uma representação visual das classes conceituais (ou objetos do mundo real) em um domínio. Ele é composto basicamente de três elementos:
 <li>Classes conceituais ou objetos do domínio <li>
- <li>Associações entre as classes conceituais <li>
-  <li>Atributos das classes conceituais<li>
+<li>Associações entre as classes conceituais <li>
+<li>Atributos das classes conceituais<li>
+ 
+ ### Classes Conceituais
+ Uma classe conceitual é uma coisa, conceito ou ideia que é relevante dentro do vocaboluário do domínio. Uma classe conceitural pode ser considerada em termos de seu simbolo, intenção e extensão. O Simbolo é a palavra ou imagem que representa a classe conceitual, em outras palavras o simbolo é o nome da classe conceitual. A intenção é a definição da classe conceitual, ou seja, é a explicação do que a classe representa dentro do domínio em que ela é empregada. A extensão por sua vez é o conjunto de exemplos onde a classes conceitual é aplicada.
+ Por exemplo, considere a classe conceituaal para o evento de uma transação de compra e venda. Podemos escolher para nomear essa classe conceitual pelo simbolo <b>Venda</>. A intenção de uma Venda pode ser definida como "representa o evento de transação de compra e venda". A extensão de Venda são todas os exemplos de vendas; ou seja, o conjunto de todas as instancias de venda.
+ 
+ 
+ 
+ ### Modelo de Domínio Não é um Modelo de Objetos de Software
+Apesar da semelhança entre modelos de dominio de diagramas de classes de software é importante compreender que um modelo de domínio ilustra apenas classes conceituais (ou seja, objetos, coisas ou conceitos relevantes no domínio do problema no "mundo real") e não objetos de software como classes de Java ou C#. Por esta razão elementos de software, como janelas de sistema, bancos de dados, responsabilidades ou métodos não são adequados para um modelo de domínio, exceto quando quando esses elementos façam parte do domínio modelado. 
+
 
 # Modelagem
 ## UML
