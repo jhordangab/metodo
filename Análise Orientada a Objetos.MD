@@ -1,4 +1,4 @@
-﻿di# Introdução a Análise Orientada a Objetos
+﻿# Introdução a Análise Orientada a Objetos
 ## O que é análise orientada a objetos?
 
 Análise orientada a objetos é uma abordagem técnica popular para análisar e projetar aplicações ou sistemas de software através da aplicação de conceitos de programação orientada a objetos, além da utilização de modelagem visual ao longo do ciclo de desenvolvimento para melhorar a comunicação entre interessados e a qualidade do produto em desenvolvimento.
@@ -98,7 +98,7 @@ Apesar da semelhança entre modelos de dominio de diagramas de classes de softwa
 
 # Modelagem
 ## UML
-A UML é uma notação padrão para diagramação amplamente utilizada para modelar soluções e sistemas orientados a objetos, que facilita a transmitir as idéias justamente por se tratar de uma notação padronizada, onde a grande maioria dos elementos utilizados possui um (ou alguns pouco) um significado pré-estabelecido. Apesar disso é importante não confundir a habilidade de criar modelos UML com a habilidade de executar boas análises orientadas a objetos.
+A UML é uma notação padrão para diagramação amplamente utilizada para modelar soluções e sistemas orientados a objetos, que facilita a transmitir as idéias justamente por se tratar de uma notação padronizada, onde a grande maioria dos elementos utilizados possui um (ou alguns pouco) significado pré-estabelecido. Apesar disso é importante não confundir a habilidade de criar modelos UML com a habilidade de executar boas análises orientadas a objetos.
 ## Principais diagramas
 ### Diagrama de Casos de Uso
 ### Diagrama de Classes
