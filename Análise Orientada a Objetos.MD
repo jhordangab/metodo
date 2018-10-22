@@ -1,9 +1,39 @@
 ﻿# Introdução a Análise Orientada a Objetos
+
+"Uma nova maneira de pensar os problemas utilizando conceitos do mundo real. O componente fundamental é o objeto que combina estrutura e comportamento em uma única entidade" [Rumbaugh]
+
+"Um sistema orientado a objetos é uma coleção de objetos que interagem entre si" [Bertrand Meyer]
+
+ 
 ## O que é análise orientada a objetos?
 
 Análise orientada a objetos é uma abordagem técnica popular para análisar e projetar aplicações ou sistemas de software através da aplicação de conceitos de programação orientada a objetos, além da utilização de modelagem visual ao longo do ciclo de desenvolvimento para melhorar a comunicação entre interessados e a qualidade do produto em desenvolvimento.
 
 Compreende a identificação de requisitos de engenharia de software e desenvolvimento de especificações de software em termos de modelos de objetos, onde cada representação de objeto pode possuir caracteristicas e comportamentos, além de ser relacionar e interagir com outros objetos para realizar as tarefas esperadas do sistema.
+
+É utilizado a UML para especificação, documentação e construção dos artefatos que são separados em 4 grupos:
+Use Case View
+ - Visão de Análise e modelagem dem um sistema de software
+Logical View
+ - Visão do projeto em si
+Component View
+ - Visão dos componentes físicos do projeto
+Deployment View
+- Visão de implantação
+
+Representado em 9 diagramas:
+
+Diagrama de Caso de Uso
+Diagrama de Classes
+Diagrama de Objetos
+Diagrama de componentes
+Diagrama de implantação
+Diagrama de Atividade
+Diagrama de Estado
+Diagrama de Colaboração
+Diagrama de Sequência
+
+
 
 # Bases da Análise Orientada a Objetos
 
@@ -39,19 +69,6 @@ Um objeto também pode ser a representação de algo que possui uma existencia f
 Classes podem ser entendidas como especificações para tipos de objetos. As caracteristicas e comportamentos de um objeto são descritas em classes, de forma que todo objeto é um membro de uma classe e criado a partir de uma classe. Chamamos a criação de um objeto a partir de uma classe de instanciação e consequentemente dizemos que o objeto criado é uma instancia da classe que o descreve.
 
 Diversas instâncias podem ser criadas a partir de uma mesma classe e todas as instâncias de uma classe (ou seja, todos os objetos criados a partir dela) possuem as caracteristicas e comportamentos definidos pela classe. Por exemplo, a partir de uma classe 'Cachorro' com os atributos 'tamanho', 'raça' e 'cor' e os comportamentos 'correr' e 'latir' podem ser criados quantos objetos 'Cachorro' desejarmos e todos eles possuirão um tamanho, uma raça e uma cor, além dos comportamentos de correr e latir. Apesar disso cada cachorro será um objeto diferente, com uma identidade diferente, além de poderem possuir estados diferentes (ou seja, um cachorro pode ter tamanho grande e cor cinza, enquanto outro cachorro pode ter tamanho pequeno e cor preta). Adicionalmente, os comportamentos dos objetos podem variar de acordo com seus estados (por exemplo, um cachorro com tamanho grande pode latir mais alto que um cachorro com o tamanho pequeno).
-
-### Herança
-
-A herança é uma das principais e mais importantes características da Orientação à Objetos, onde é permitido o compartilhamento de atributos e métodos entre objetos que possuem o mesmo relacionamento hierárquico, organizando e otimizando o código construído.
-
-Exemplo: 
-
-A classe |Animal| possui os atributos |nome| e |quantidadeDePatas|
-
-A classe |Cachorro| extende da classe |Animal|
-A classe |Gato| extende da classe |Animal|
-
-Portanto, |Cachorro| e |Gato| possuem os atributos |nome| e |quanidadeDePatas|
 
 # Análise
 O principal propósito da análise é determinar o que o sistema deve fazer em termos de soluções para um determinado conjunto ode problemas, sem determinar qual metodologia deve ser aplicada para isso. 
@@ -97,7 +114,8 @@ Apesar da semelhança entre modelos de dominio de diagramas de classes de softwa
 
 
 # Modelagem
-A modelagem pode ocorrer à partir de artefatos como: relatórios, documentos, textos, outros sistemas e qualquer outro artefato que faça parte do domínio do problema. O analista investiga estes artefatos e identifica o vocabulário relevante. Cada léxico deste vocabulário dá origem a uma classe conceitual no modelo de domínio. Para o processo de modelagem, é importante que exista um tipo de padronizador, para que uma modelagem possa ser mais universal e entendida mais facilmente. Nesse quesito, pode-se utilizar a UML.
+A modelagem pode ocorrer à partir de artefatos como: relatórios, documentos, textos, outros sistemas e qualquer outro artefato que faça parte do domínio do problema. O analista investiga estes artefatos e identifica o vocabulário relevante. Cada léxico deste vocabulário dá origem a uma classe conceitual no modelo de domínio. Para o processo de modelagem, é importante que exista um tipo de padronizador, para que uma modelagem possa ser mais universal e entendida mais facilmente. Nesse quesito, pode-se utilizar a UML.
+
 
 ## UML
 A UML é uma notação padrão para diagramação amplamente utilizada para modelar soluções e sistemas orientados a objetos, que facilita a transmitir as idéias justamente por se tratar de uma notação padronizada, onde a grande maioria dos elementos utilizados possui um (ou alguns pouco) significado pré-estabelecido. Apesar disso é importante não confundir a habilidade de criar modelos UML com a habilidade de executar boas análises orientadas a objetos.
