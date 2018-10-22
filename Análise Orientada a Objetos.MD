@@ -101,9 +101,13 @@ Apesar da semelhança entre modelos de dominio de diagramas de classes de softwa
 A UML é uma notação padrão para diagramação amplamente utilizada para modelar soluções e sistemas orientados a objetos, que facilita a transmitir as idéias justamente por se tratar de uma notação padronizada, onde a grande maioria dos elementos utilizados possui um (ou alguns pouco) significado pré-estabelecido. Apesar disso é importante não confundir a habilidade de criar modelos UML com a habilidade de executar boas análises orientadas a objetos.
 ## Principais diagramas
 ### Diagrama de Casos de Uso
-### Diagrama de Classes
-### Diaagrama de Objetos
+Representa o conjunto de comportamentos de alto nível que o sistema deve executar para um determinado ator.
 
+### Diagrama de Classes
+Representa uma coleção de classes e seus inter-relacionamentos.
+
+### Diaagrama de Objetos
+Representa um retrato, em tempo de execução, dos objetos do software e seus inter-relacionamentos.
 
 
 ## Vantagens e Desvantagens
