@@ -101,7 +101,7 @@ Apesar da semelhança entre modelos de dominio de diagramas de classes de softwa
 A UML é uma notação padrão para diagramação amplamente utilizada para modelar soluções e sistemas orientados a objetos, que facilita a transmitir as idéias justamente por se tratar de uma notação padronizada, onde a grande maioria dos elementos utilizados possui um (ou alguns pouco) significado pré-estabelecido. Apesar disso é importante não confundir a habilidade de criar modelos UML com a habilidade de executar boas análises orientadas a objetos.
 ## Principais diagramas
 ### Diagrama de Casos de Uso
-Representa o conjunto de comportamentos de alto nível que o sistema deve executar para um determinado ator.
+Esse diagrama documenta o que o sistema faz do ponto de vista do usuário. Em outras palavras, ele descreve as principais funcionalidades do sistema e a interação dessas funcionalidades com os usuários do mesmo sistema. Os diagramas de casos de uso são basicamente compostos por: ator, cenário, caso de uso e comunicação. Sendo o ator o usuário do sistema, o cenário uma sequência de eventos decorrentes de uma interação com o usuário, caso de uso uma tarefa ou funcionalidade e a comunicação o que liga o ator ao caso de uso.
 
 ### Diagrama de Classes
 Representa uma coleção de classes e seus inter-relacionamentos.
