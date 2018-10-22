@@ -106,7 +106,7 @@ A UML é uma notação padrão para diagramação amplamente utilizada para mode
 Esse diagrama documenta o que o sistema faz do ponto de vista do usuário. Em outras palavras, ele descreve as principais funcionalidades do sistema e a interação dessas funcionalidades com os usuários do mesmo sistema. Os diagramas de casos de uso são basicamente compostos por: ator, cenário, caso de uso e comunicação. Sendo o ator o usuário do sistema, o cenário uma sequência de eventos decorrentes de uma interação com o usuário, caso de uso uma tarefa ou funcionalidade e a comunicação o que liga o ator ao caso de uso.
 
 ### Diagrama de Classes
-Representa uma coleção de classes e seus inter-relacionamentos.
+Representa uma coleção de classes e seus inter-relacionamentos. Uma classe, na UML (e na Orientação a Objetos também) possui três compartimentos, sendo para: Nome, Atributos e Operações. No diagrama podemos ter também relacionamentos de Associação, Agregação, Composição e Generalização (Herança).
 
 ### Diagrama de Objetos
 Representa um retrato, em tempo de execução, dos objetos do software e seus inter-relacionamentos.
