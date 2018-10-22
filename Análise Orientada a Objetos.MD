@@ -109,7 +109,7 @@ Esse diagrama documenta o que o sistema faz do ponto de vista do usuário. Em ou
 Representa uma coleção de classes e seus inter-relacionamentos. Uma classe, na UML (e na Orientação a Objetos também) possui três compartimentos, sendo para: Nome, Atributos e Operações. No diagrama podemos ter também relacionamentos de Associação, Agregação, Composição e Generalização (Herança).
 
 ### Diagrama de Objetos
-Representa um retrato, em tempo de execução, dos objetos do software e seus inter-relacionamentos.
+Representa um retrato, em tempo de execução, dos objetos do software e seus inter-relacionamentos. O diagrama de objetos modela as instâncias das classes contidas no diagrama de classes, isto é, o diagrama de objetos mostra um conjunto de objetos e seus relacionamentos no tempo. Estes diagramas são importantes para construir os aspectos estáticos do sistema.
 
 
 ## Vantagens e Desvantagens
