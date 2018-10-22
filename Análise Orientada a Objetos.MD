@@ -40,8 +40,6 @@ Classes podem ser entendidas como especificações para tipos de objetos. As car
 
 Diversas instâncias podem ser criadas a partir de uma mesma classe e todas as instâncias de uma classe (ou seja, todos os objetos criados a partir dela) possuem as caracteristicas e comportamentos definidos pela classe. Por exemplo, a partir de uma classe 'Cachorro' com os atributos 'tamanho', 'raça' e 'cor' e os comportamentos 'correr' e 'latir' podem ser criados quantos objetos 'Cachorro' desejarmos e todos eles possuirão um tamanho, uma raça e uma cor, além dos comportamentos de correr e latir. Apesar disso cada cachorro será um objeto diferente, com uma identidade diferente, além de poderem possuir estados diferentes (ou seja, um cachorro pode ter tamanho grande e cor cinza, enquanto outro cachorro pode ter tamanho pequeno e cor preta). Adicionalmente, os comportamentos dos objetos podem variar de acordo com seus estados (por exemplo, um cachorro com tamanho grande pode latir mais alto que um cachorro com o tamanho pequeno).
 
-### Relacionamentos
-### Associações
 ### Herança
 
 A herança é uma das principais e mais importantes características da Orientação à Objetos, onde é permitido o compartilhamento de atributos e métodos entre objetos que possuem o mesmo relacionamento hierárquico, organizando e otimizando o código construído.
@@ -56,32 +54,41 @@ A classe |Gato| extende da classe |Animal|
 Portanto, |Cachorro| e |Gato| possuem os atributos |nome| e |quanidadeDePatas|
 
 # Análise
-O principal propósito da análise é determinar o que o sistema deve fazer sem determinar qual metodologia deve ser aplicada para isso. O resultado da análise é geralmente expresso em um ou mais documentos referidos tipicamente como "Especificação de Requisitos" ou "Requisitos do Sistema".
-No caso da análise orientada a objetos, uma ou mais pessoas, assumindo o papel de analistas procuram desenvolver um conjunto de modelos do sistema, descrito como um agregado de objetos conceituais que se relacionam entre sí.
-O produto final desta análise é um modelo conceitual do sistema que descreve a funcionalidade do sistema, identifica suas entidades conceituais e as associais entre essas entidades.
+O principal propósito da análise é determinar o que o sistema deve fazer em termos de soluções para um determinado conjunto ode problemas, sem determinar qual metodologia deve ser aplicada para isso. 
+No caso da análise orientada a objetos, o objetivo é compreender e representar os problema a ser solucionado pelo sistema em termos de objetos. O resultado da análise orientada a objetos geralmente é um conjunto de modelos do sistema, representando-o como um agregado de objetos conceituais, com caracteristicas e comportamentos, que se relacionam para cumprir as tarefas esperadas do sistema.
 
 ## Requisitos
 O objetivo principal de qualquer sistema de software é satisfazer um conjunto de necessidade declaradas ou implicitas dos indivíduos interessados nele. Este objetivo é evidentemente, muito genérico, e por essa razão é necessário um conjunto de atividades que possibilitem identificar quais são essas necessidades. Esse conjuntos de atividades é que chamamos de análise, e quando ela é realizada em termos de objetos, relacionamentos e responsabilidades a chamamos de análise orientada a objetos.
 
+O resultado da análise é geralmente expresso em um ou mais documentos referidos tipicamente como "Especificação de Requisitos" ou "Requisitos do Sistema".
+
 ## Casos de Uso
-Casos de uso são histórios escritas em formato de texto, amplamente utilizadas na análise orientada a objetos para descobrir e registrar requisitos. Eles influenciam muitos aspectos de um projeto e servem de entrada para diversos artefatos subsequentes no desenvolvimento de um sistema.
-Um caso de uso descreve como um determinado ator interage com o sistema para realizar uma tarefa com algum objetivo. Por exemplo, vender um item, cadastrar um cliente, emitir um relatório, etc...
+Casos de uso são histórias escritas em formato de texto, amplamente utilizadas na análise orientada a objetos para descobrir e registrar requisitos. Eles influenciam muitos aspectos de um projeto e servem de entrada para diversos artefatos subsequentes no desenvolvimento de um sistema.
+Um caso de uso descreve como um determinado ator interage com o sistema para realizar uma tarefa com algum objetivo, podendo ocorrer em diferentes cenários. Por exemplo, vender um item, cadastrar um cliente, emitir um relatório, etc...
 Um ator é uma entidade como um pessoa, um sistema de computador ou uma organização que interage com o sistema com um determinado papel, comportamento ou objetivo. Por exemplo, um caixa de supermercado é o ator que interage com o sistema de vendas para realizar uma venda.
 Um cenário é uma sequencia específica de ações e interações entre os atores e o sistema dentro de um caso de uso. Por exemplo, dentro de um caso de uso "realizar pagamento" podem existir diversos cenários como pagar com dinheiro, pagamento com cartão, pagamento a vista, pagamento a prazo, parcelamento, etc... Cada cenário pode exigir que o ator ou sistema se comporte de maneira diferente, mas o objetivo geral de todos os cenários está relacionado com o objetivo do caso de uso. Ou seja, embora um caso de uso possa ter diversos cenários, como é o caso do nosso cenário "realizar pagamento", todos eles estão envolvidos com o objetivo de tratar uma execução de pagamento.
 
 Abaixo temos um exemplo de um caso de uso representado em formato resumido:
 
-<b>Processar Venda</b>: Um cliente chega ao caixa com itens de venda. O caixa utiliza o sistema de vendas para registrar cada item de venda. O sistema apresenta o total corrente e os detalhes de cada linha de item. O cliente insere as informações de pagamento, que o sistema valida e registra. O sistema atualiza o inventário. O cliente recebe um recibo do sistema e sai com o itens.
+<b>Processar Venda</b>: Um cliente chega ao caixa com itens de venda. O caixa utiliza o sistema de vendas para registrar cada item de venda e sua quantidade. O sistema apresenta o total corrente e os detalhes de cada linha de item. O cliente insere as informações de pagamento, que o sistema valida e registra. O sistema atualiza o inventário. O cliente recebe um recibo do sistema e sai com o itens.
 
 ### Casos de Uso e Análise Orientda a Objetos
 Casos de uso não são obrigatórios para realizar análise orientada a objetos, e, em termos gerais, um caso de uso não é considerado um modelo orientado a objetos. apesar disso, casos de uso podem ajudar bastante na análise orientada a objetos, pois através deles diversos objetos, relacionamentos e responsabilidades podem ser identificados.
 Cada substantivo em um caso de uso é um candidato a um possivel objeto e cada verbo é um candidato a um comportamento de um ou mais objetos. Por exemplo: no casos de uso "processar venda" apresentado na seção anterior podemos identificar os substantivos "venda", "cliente", "caixa", "item de venda", "linha de item", "pagamento", "inventário" e "recibo". Todos estes substantivo são candidatos à uma classe de objetos e provavelmente a maioria deles de fato seria transformada em uma classe.
 Também podemos identificar alguns comportamentos no mesmo caso de uso como "registrar item de venda", "apresentar total da venda", "detalhar linha de item", inserir informações de pagamento", "validar pagamento", "registrar pagamento", "atualizar inventário" e "gerar recibo". Novamente, todos esses comportamentos são candidatos à comportamentos de alguma classe, como por exemplo, o comportamento "atualizar inventário" pode ser escolhido como um comportamento da classe "inventário".
-Os casos de uso também nos ajudam identificar relacionamento entre os objetos. Nosso caso de uso diz que o cliente chega ao caixa com os itens de venda, e isso pode indicar que exista algum relacionamento entre clientes e itens devenda.
+Casos de uso também ajudam a identificar atributos de objetos. Em nosso caso de uso de exemplo podemos ler "O caixa utiliza da item de venda e sua quantidade", e isso sugere que um item de venda possui um atributo quantidade.
+Ainda é possivel identificar alguns relacionamentos entre os objetos utilizando casos de uso. Nosso caso de uso diz que o cliente chega ao caixa com os itens de venda, e isso pode indicar que exista algum relacionamento entre clientes e itens devenda.
+
+## Modelo de Domínio
+O modelo de domínio é o modelo mais importante e clássico da análise orientada a objetos. Ele ilustra os conceitos mais relevantes de um domínio. Além disso ele também serve como um fonte de inspiração para projetar alguns objetos de software e como entrada  para diversos outros arterafos no ciclo de desenvolvimento.
+Um modelo de dominio é uma representação visual das classes conceituais (ou objetos do mundo real) em um domínio. Ele é composto basicamente de três elementos:
+<li>Classes conceituais ou objetos do domínio <li>
+ <li>Associações entre as classes conceituais <li>
+  <li>Atributos das classes conceituais<li>
 
 # Modelagem
 ## UML
-A UML é uma notação padrão para diagramação amplamente utilizada para modelar soluções e sistemas orientados a objetos, que facilita a transmitir as idéias justamente por se tratar de uma notação padronizada, onde a grande maioria dos elementos utilizados possui um (ou alguns pouco) significado pré-estabelecido. Apesar disso é importante não confundir a habilidade de criar modelos UML com a habilidade de executar boas análises orientadas a objetos.
+A UML é uma notação padrão para diagramação amplamente utilizada para modelar soluções e sistemas orientados a objetos, que facilita a transmitir as idéias justamente por se tratar de uma notação padronizada, onde a grande maioria dos elementos utilizados possui um (ou alguns pouco) um significado pré-estabelecido. Apesar disso é importante não confundir a habilidade de criar modelos UML com a habilidade de executar boas análises orientadas a objetos.
 ## Principais diagramas
 
 ## Vantagens e Desvantagens
