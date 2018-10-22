@@ -88,7 +88,7 @@ Um modelo de dominio é uma representação visual das classes conceituais (ou o
  
  ### Classes Conceituais
  Uma classe conceitual é uma coisa, conceito ou ideia que é relevante dentro do vocaboluário do domínio. Uma classe conceitural pode ser considerada em termos de seu simbolo, intenção e extensão. O Simbolo é a palavra ou imagem que representa a classe conceitual, em outras palavras o simbolo é o nome da classe conceitual. A intenção é a definição da classe conceitual, ou seja, é a explicação do que a classe representa dentro do domínio em que ela é empregada. A extensão por sua vez é o conjunto de exemplos onde a classes conceitual é aplicada.
- Por exemplo, considere a classe conceituaal para o evento de uma transação de compra e venda. Podemos escolher para nomear essa classe conceitual pelo simbolo <b>Venda<b>. A intenção de uma Venda pode ser definida como "representa o evento de transação de compra e venda". A extensão de Venda são todas os exemplos de vendas; ou seja, o conjunto de todas as instancias de venda.
+ Por exemplo, considere a classe conceituaal para o evento de uma transação de compra e venda. Podemos escolher para nomear essa classe conceitual pelo simbolo **Venda**. A intenção de uma Venda pode ser definida como "representa o evento de transação de compra e venda". A extensão de Venda são todas os exemplos de vendas; ou seja, o conjunto de todas as instancias de venda.
  
  
  
